@@ -1,6 +1,8 @@
 print "Bienvenido a Mifisic"
 
-Distancia= raw_input("Ingresa la distancia: ")
-Tiempo= raw_input("Ingresa el tiempo: ")
+Distancia= int(raw_input("Ingresa la distancia: "))
+Tiempo= int(raw_input("Ingresa el tiempo: "))
 
 print Distancia/Tiempo
+raw_input()
+ 
